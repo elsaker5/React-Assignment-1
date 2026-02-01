@@ -1,0 +1,120 @@
+.custom-navbar {
+  background: rgba(22, 22, 22, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.logo-circle {
+  color: #ff8800;
+  font-size: 20px;
+}
+
+.logo-text {
+  font-weight: 600;
+  font-size: 15px;
+}
+
+.fa-camera {
+  color: #ff8800 !important;
+}
+
+.nav-NavLink {
+  color: #adb5bd !important;
+  font-size: 14px;
+}
+
+.active {
+  color: #ff8800 !important;
+}
+
+.nav-NavLink:hover {
+  color: #fff !important;
+}
+
+.search-btn {
+  background: RGB(255, 136, 2) !important;
+  color: #fff !important;
+}
+
+.desc {
+  font-size: 10px !important;
+  color: #ff8800;
+}
+
+.footer-section {
+  background: rgba(22, 22, 22, 0.95);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  text-align: right;
+}
+
+.footer-title {
+  position: relative;
+  font-weight: bold;
+  font-size: 1.1rem;
+}
+
+.footer-title::after {
+  content: "";
+  display: inline-block;
+  width: 30px;
+  height: 3px;
+  background-color: RGB(255, 136, 2) !important;
+  margin-right: 10px;
+  vertical-align: middle;
+  border-radius: 2px;
+}
+
+.logo-box-footer {
+  background-color: RGB(255, 136, 2) !important;
+  color: white !important;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.footer-link {
+  color: #adb5bd !important;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 0.95rem;
+}
+
+.footer-link:hover {
+  color: RGB(255, 136, 2) !important;
+  padding-right: 5px;
+}
+
+.footer-link-terms {
+  color: #adb5bd !important;
+  text-decoration: none;
+  transition: 0.3s;
+  font-size: 0.95rem;
+}
+
+.footer-link-terms:hover {
+  color: RGB(255, 136, 2) !important;
+}
+
+.social-icons a {
+  width: 38px;
+  height: 38px;
+  background-color: rgba(255, 255, 255, 0.05) !important;
+  color: #adb5bd !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  background-color: RGB(255, 136, 2) !important;
+  color: white !important;
+}

@@ -1,0 +1,67 @@
+body {
+  font-family: "Tajawal", sans-serif;
+  font-weight: 400;
+}
+
+:root {
+  --brand-orange: RGB(255, 136, 2);
+  --bg-darkest: #050505;
+  --bg-card: #121212;
+}
+
+.text-orange {
+  color: var(--brand-orange) !important;
+}
+.bg-darkest {
+  background-color: var(--bg-darkest) !important;
+}
+.bg-card-custom {
+  background-color: var(--bg-card) !important;
+}
+
+.hover-card {
+  transition: transform 0.3s ease, border-color 0.3s ease;
+}
+.hover-card:hover {
+  transform: translateY(-5px);
+  border-color: var(--brand-orange) !important;
+}
+
+.hero-badge {
+  background: rgba(255, 136, 0, 0.15);
+  color: #ffffff;
+  border: 2px solid RGB(255, 136, 2);
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 14px;
+}
+
+.glass-badge {
+  background: rgba(0, 0, 0, 0.6);
+  backdrop-filter: blur(5px);
+}
+
+.btn-filter {
+  border: 1px solid #333;
+  color: #888;
+  transition: 0.3s;
+}
+.btn-filter:hover,
+.btn-filter.active {
+  background-color: var(--brand-orange) !important;
+  color: white !important;
+  border-color: var(--brand-orange) !important;
+}
+
+.btn-circle {
+  width: 40px;
+  height: 40px;
+  border: 1px solid #333;
+  color: var(--brand-orange);
+  transition: 0.3s;
+}
+.btn-circle:hover {
+  background-color: var(--brand-orange);
+  color: white !important;
+  border-color: var(--brand-orange);
+}

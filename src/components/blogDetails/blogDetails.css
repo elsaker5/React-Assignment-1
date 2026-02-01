@@ -1,0 +1,49 @@
+:root {
+  --brand-orange: #f17a37;
+  --bg-dark: #0a0a0a;
+  --card-bg: #111111;
+}
+
+.bg-dark-post {
+  background-color: var(--bg-dark);
+  color: #fff;
+}
+.text-orange {
+  color: var(--brand-orange) !important;
+}
+.btn-orange {
+  background-color: var(--brand-orange);
+  color: white;
+  border: none;
+}
+.btn-orange:hover {
+  background-color: #d6682f;
+  color: white;
+}
+
+.info-box-custom {
+  background-color: var(--card-bg);
+  border: 1px solid #222;
+  border-radius: 12px;
+}
+
+.content-icon {
+  width: 32px;
+  height: 32px;
+  background: rgba(241, 122, 55, 0.1);
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.post-content h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+.post-content p {
+  color: #aaa;
+  line-height: 1.8;
+}
